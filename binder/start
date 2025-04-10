@@ -10,6 +10,8 @@ rm bm.h
 rm fqgrep.c
 rm kseq.h
 rm tre-test.c
+rm bm.o
+rm fqgrep.o
 
 
 # this must be last line according to 
