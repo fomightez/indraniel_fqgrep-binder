@@ -8,4 +8,4 @@ make
 # Put Indraniel Das' fqgrep in path ("~/.local/bin" is in the PATH)
 mkdir -p ~/.local/bin
 cd ~/.local/bin
-cp ~/fqgrep .
+mv ~/fqgrep .
