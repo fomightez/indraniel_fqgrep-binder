@@ -17,59 +17,59 @@ Click any `launch binder` badge on this page to use the demonstrations inside yo
 SYNOPSIS
 ========
 
-'fqgrep' is an approximate sequence pattern matcher for FASTQ/FASTA files.
-One can think of it as being a grep (http://en.wikipedia.org/wiki/Grep)
-and agrep (http://en.wikipedia.org/wiki/Agrep) like tool optimized
-for FASTQ (http://en.wikipedia.org/wiki/FASTQ_format) and FASTA
-(http://en.wikipedia.org/wiki/FASTA_format) files. It can work directly
-on both compressed and uncompressed file types.
+'fqgrep' is an approximate sequence pattern matcher for FASTQ/FASTA files.  
+One can think of it as being a grep (http://en.wikipedia.org/wiki/Grep)  
+and agrep (http://en.wikipedia.org/wiki/Agrep) like tool optimized  
+for FASTQ (http://en.wikipedia.org/wiki/FASTQ_format) and FASTA  
+(http://en.wikipedia.org/wiki/FASTA_format) files. It can work directly  
+on both compressed and uncompressed file types.  
 
-Below is the help message via ('fqgrep -h') describing its usage:
+Below is the help message via ('fqgrep -h') describing its usage:  
 
-Usage: fqgrep [options] -p <pattern> <fastq_or_fasta_files>
-        -h                  This help message
-        -V                  Program and version information
-        -p <STRING>         Pattern of interest to grep [REQUIRED]
-        -v                  Invert match - show only sequences that
-                            DO NOT match the pattern
-        -a                  Show all records irregardless of match status
-                            Useful in conjunction with the -r option;
-                            when one would like to do further post-processing
-                            of the match data
-        -c                  Highlight matching string with color
-        -f                  Output matches in FASTA format
-        -r                  Output matches in detailed stats report format
-        -b <STRING>         Delimiter string to separate columns
-                            in detailed stats report [Default: '\t']
-        -m <INT>            Total number of mismatches to at most allow for
-                            in search pattern [Default: 0]
-        -s <INT>            Max threshold of substitution mismatches to allow
-                            for in search pattern [Default: unlimited]
-        -i <INT>            Max threshold of insertion mismatches to allow for
-                            in search pattern [Default: unlimited]
-        -d <INT>            Max threshold of deletion mismatches to allow for
-                            in search pattern [Default: unlimited]
-        -S <INT>            Cost of base substitutions in obtaining
-                            approximate match [Default: 1]
-        -I <INT>            Cost of base insertions in obtaining
-                            approximate match [Default: 1]
-        -D <INT>            Cost of base deletions in obtaining
-                            approximate match [Default: 1]
-        -e                  Force tre regexp engine usage
-        -C                  Display only a total count of matches
-                            (per input FASTQ/FASTA file)
-        -o <out_file>       Desired output file.
-                            If not specified, defaults to stdout
+Usage: fqgrep [options] -p <pattern> <fastq_or_fasta_files>  
+        -h                  This help message  
+        -V                  Program and version information  
+        -p <STRING>         Pattern of interest to grep [REQUIRED]  
+        -v                  Invert match - show only sequences that  
+                            DO NOT match the pattern  
+        -a                  Show all records irregardless of match status  
+                            Useful in conjunction with the -r option;  
+                            when one would like to do further post-processing  
+                            of the match data  
+        -c                  Highlight matching string with color  
+        -f                  Output matches in FASTA format  
+        -r                  Output matches in detailed stats report format  
+        -b <STRING>         Delimiter string to separate columns  
+                            in detailed stats report [Default: '\t']  
+        -m <INT>            Total number of mismatches to at most allow for  
+                            in search pattern [Default: 0]  
+        -s <INT>            Max threshold of substitution mismatches to allow  
+                            for in search pattern [Default: unlimited]  
+        -i <INT>            Max threshold of insertion mismatches to allow for  
+                            in search pattern [Default: unlimited]  
+        -d <INT>            Max threshold of deletion mismatches to allow for  
+                            in search pattern [Default: unlimited]  
+        -S <INT>            Cost of base substitutions in obtaining  
+                            approximate match [Default: 1]  
+        -I <INT>            Cost of base insertions in obtaining  
+                            approximate match [Default: 1]  
+        -D <INT>            Cost of base deletions in obtaining  
+                            approximate match [Default: 1]  
+        -e                  Force tre regexp engine usage  
+        -C                  Display only a total count of matches  
+                            (per input FASTQ/FASTA file)  
+        -o <out_file>       Desired output file.  
+                            If not specified, defaults to stdout  
 
-PREREQUISITES
-=============
+PREREQUISITES  
+============= 
 
-"fqgrep" depends upon the following libraries:
+"fqgrep" depends upon the following libraries:  
 
-  * TRE Regular Expression Library (TRE)
-    [http://laurikari.net/tre/] version 0.8.0.
-  * zlib
-    [http://www.zlib.net]
+  * TRE Regular Expression Library (TRE)  
+    [http://laurikari.net/tre/] version 0.8.0.  
+  * zlib  
+    [http://www.zlib.net]  
 
 They will need to be available on your system before fqgrep can be
 installed.
