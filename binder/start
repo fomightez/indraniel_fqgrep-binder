@@ -4,6 +4,7 @@
 # this will make it easier to see the files produced
 rm Makefile
 rm README
+rm LICENSE
 rm bm.c
 rm bm.h
 rm fqgrep.c
