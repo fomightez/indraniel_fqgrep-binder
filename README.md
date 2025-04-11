@@ -16,3 +16,19 @@ See [the source repo for Indraniel Das' fqgrep here](https://github.com/indranie
 
 You more likely are interested [Fulcrum Genomics' fqgrep](https://github.com/fulcrumgenomics/fqgrep)!! It is much more current and better maintained than [Indraniel Das' fqgrep here](https://github.com/indraniel/fqgrep).  
 I have a nice demonstration site for Fulcrum Genomics' fqgrep that you can easily run via MyBinder-served sessions without installing anything on your machine, see [my fqgrep-binder repo](https://github.com/fomightez/fqgrep-binder).
+
+
+------------------
+
+## Related utilities
+
+- Patmatch
+
+	[Patmatch](https://github.com/fomightez/patmatch-binder) will run on fasta to find matches to patterns. Patmatch supports IUPAC and mismatch insertions, deletions, and substitutions that I haven't seen fqgrep support. (see about 'indraniel/fqgrep' below for more on that.)
+
+	And so if you need to allow mismatches with numbers of insertions, deletions, and substitutions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
+
+- Fulcrum Genomics' fqgrep
+
+	Fulcrum Genomics' fqgrep is more developed and in some ways more full-featured than Indraniel Das' fqgrep.
+	See more about it and try it in MyBinder-served sessions [here](https://github.com/fomightez/fqgrep-binder).
