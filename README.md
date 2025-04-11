@@ -31,4 +31,5 @@ I have a nice demonstration site for Fulcrum Genomics' fqgrep that you can easil
 - Fulcrum Genomics' fqgrep
 
 	Fulcrum Genomics' fqgrep is more developed and in some ways more full-featured than Indraniel Das' fqgrep.
-	See more about it and try it in MyBinder-served sessions [here](https://github.com/fomightez/fqgrep-binder).
+	See more about it and try it in MyBinder-served sessions [here](https://github.com/fomightez/fqgrep-binder).  
+	My understanding is that is more restrictive than Indraniel Das' fqgrep in how you can specify mismatches, at this time.
