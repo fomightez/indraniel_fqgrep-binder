@@ -2,7 +2,7 @@
 # indraniel_fqgrep-binder
 Analysis of sequencing data using indraniel/fqgrep, *an approximate sequence pattern matcher for FASTQ/FASTA files*, in Jupyter sessions provided via MyBinder.org. Adapt the demonstrations to analyze your data and create reports.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/indraniel_fqgrep-binder/master?urlpath=%2Flab%2Ftree%2Fdemo.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/indraniel_fqgrep-binder/HEAD?urlpath=%2Fdoc%2Ftree%2FDemonstrate+indraniel+fqgrep.ipynb)
 
 
 *tl;dr:*  
@@ -15,4 +15,4 @@ See [the source repo for Indraniel Das' fqgrep here](https://github.com/indranie
 ------------------
 
 You more likely are interested [Fulcrum Genomics' fqgrep](https://github.com/fulcrumgenomics/fqgrep)!! It is much more current and better maintained than [Indraniel Das' fqgrep here](https://github.com/indraniel/fqgrep).  
-I have a nice demostration site for Fulcrum Genomics' fqgrep that you can easily run via MyBinder-served sessions without installing anything on your machine, see [my fqgrep-binder repo](https://github.com/fomightez/fqgrep-binder).
+I have a nice demonstration site for Fulcrum Genomics' fqgrep that you can easily run via MyBinder-served sessions without installing anything on your machine, see [my fqgrep-binder repo](https://github.com/fomightez/fqgrep-binder).
