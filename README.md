@@ -2,7 +2,7 @@
 # indraniel_fqgrep-binder
 Analysis of sequencing data using indraniel/fqgrep, *an approximate sequence pattern matcher for FASTQ/FASTA files*, in Jupyter sessions provided via MyBinder.org. Adapt the demonstrations to analyze your data and create reports.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/indraniel_fqgrep-binder/HEAD?urlpath=%2Fdoc%2Ftree%2FDemonstrate+indraniel+fqgrep.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/indraniel_fqgrep-binder/HEAD?urlpath=%2Flab%2Ftree%2FDemonstrate+indraniel+fqgrep.ipynb)
 
 
 *tl;dr:*  
