@@ -28,6 +28,9 @@ I have a nice demonstration site for Fulcrum Genomics' fqgrep that you can easil
 	See more about it and try it in MyBinder-served sessions [here](https://github.com/fomightez/fqgrep-binder).  
 	My understanding is that is more restrictive than Indraniel Das' fqgrep in how you can specify mismatches, at this time.
 
+- seqkit grep
+	[seqkit grep](https://bioinf.shenwei.me/seqkit/usage/#grep) appears to allow biological-type mismatches and since it is part of a 'Utrafast FASTA/Q kit', I assume it works on both file formats. I have yet to try it. Learned of it from [this Biostar's post](https://www.biostars.org/p/346852/#346875) when I thought to include 'fuzzy' as a search term when I was pondering why no one cared that Fulcrum Genomics' fqgrep seems not to support biologica-style mismatches or Indraniel Das' fqgrep is not maintained.
+
 - Patmatch
 
 	[Patmatch](https://github.com/fomightez/patmatch-binder) will run on FASTA to find matches to patterns. Patmatch supports IUPAC and mismatch insertions, deletions, and substitutions that I haven't seen Fulcrum Genomics' fqgrep support. 
