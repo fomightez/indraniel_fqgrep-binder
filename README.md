@@ -37,4 +37,7 @@ I have a nice demonstration site for Fulcrum Genomics' fqgrep that you can easil
 
 	And so if you need to allow mismatches with numbers of insertions, deletions, and substitutions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
 
+- grepq
+
+	Rust-based [grepq](https://github.com/Rbfinch/grepq) - I think this may the most recent entry along these lines, and says, "very fast and scales to large FASTQ files" & "IUPAC ambiguity code support"
 
