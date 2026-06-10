@@ -37,10 +37,12 @@ I have a nice demonstration site for Fulcrum Genomics' fqgrep that you can easil
 
 	And so if you need to allow mismatches with numbers of insertions, deletions, and substitutions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
 
-- grepq
 
-	Rust-based [grepq](https://github.com/Rbfinch/grepq) - I think this may the most recent entry along these lines, and says, "very fast and scales to large FASTQ files" & "IUPAC ambiguity code support"
+- Sassy  
 
-- Sassy
   [Sassy: SIMD-accelerated Approximate String Matching](https://github.com/RagnarGrootKoerkamp/sassy) allows fuzzy and pattern matching. I haven't yet personally tried it. I learned about it [here](https://www.biostars.org/p/409111/#9620206).
 
+
+- grepq
+
+	Rust-based [grepq](https://github.com/Rbfinch/grepq) - This seems may the most recent entry along these lines, and I have not yet tried it. The information says, "very fast and scales to large FASTQ files" & "IUPAC ambiguity code support". See [here](https://www.biostars.org/p/9605287/) for more information.
