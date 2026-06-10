@@ -41,3 +41,6 @@ I have a nice demonstration site for Fulcrum Genomics' fqgrep that you can easil
 
 	Rust-based [grepq](https://github.com/Rbfinch/grepq) - I think this may the most recent entry along these lines, and says, "very fast and scales to large FASTQ files" & "IUPAC ambiguity code support"
 
+- Sassy
+  [Sassy: SIMD-accelerated Approximate String Matching](https://github.com/RagnarGrootKoerkamp/sassy) allows fuzzy and pattern matching. I haven't yet personally tried it. I learned about it [here](https://www.biostars.org/p/409111/#9620206).
+
